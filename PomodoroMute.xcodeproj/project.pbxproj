@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		201C95FA2C8F7E4A0029C9B8 /* PomodoroMuteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201C95F92C8F7E4A0029C9B8 /* PomodoroMuteApp.swift */; };
+		201C95FC2C8F7E4A0029C9B8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201C95FB2C8F7E4A0029C9B8 /* ContentView.swift */; };
+		201C95FE2C8F7E4B0029C9B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 201C95FD2C8F7E4B0029C9B8 /* Assets.xcassets */; };
+		201C96022C8F7E4B0029C9B8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 201C96012C8F7E4B0029C9B8 /* Preview Assets.xcassets */; };
+		201C960C2C8F7E4B0029C9B8 /* PomodoroMuteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201C960B2C8F7E4B0029C9B8 /* PomodoroMuteTests.swift */; };
+		201C96162C8F7E4B0029C9B8 /* PomodoroMuteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201C96152C8F7E4B0029C9B8 /* PomodoroMuteUITests.swift */; };
+		201C96182C8F7E4B0029C9B8 /* PomodoroMuteUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201C96172C8F7E4B0029C9B8 /* PomodoroMuteUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		201C96082C8F7E4B0029C9B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 201C95EE2C8F7E4A0029C9B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 201C95F52C8F7E4A0029C9B8;
+			remoteInfo = PomodoroMute;
+		};
+		201C96122C8F7E4B0029C9B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 201C95EE2C8F7E4A0029C9B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 201C95F52C8F7E4A0029C9B8;
+			remoteInfo = PomodoroMute;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		201C95F62C8F7E4A0029C9B8 /* PomodoroMute.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PomodoroMute.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		201C95F92C8F7E4A0029C9B8 /* PomodoroMuteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodoroMuteApp.swift; sourceTree = "<group>"; };
+		201C95FB2C8F7E4A0029C9B8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		201C95FD2C8F7E4B0029C9B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		201C95FF2C8F7E4B0029C9B8 /* PomodoroMute.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PomodoroMute.entitlements; sourceTree = "<group>"; };
+		201C96012C8F7E4B0029C9B8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		201C96072C8F7E4B0029C9B8 /* PomodoroMuteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PomodoroMuteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		201C960B2C8F7E4B0029C9B8 /* PomodoroMuteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodoroMuteTests.swift; sourceTree = "<group>"; };
+		201C96112C8F7E4B0029C9B8 /* PomodoroMuteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PomodoroMuteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		201C96152C8F7E4B0029C9B8 /* PomodoroMuteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodoroMuteUITests.swift; sourceTree = "<group>"; };
+		201C96172C8F7E4B0029C9B8 /* PomodoroMuteUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodoroMuteUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		201C95F32C8F7E4A0029C9B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		201C96042C8F7E4B0029C9B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		201C960E2C8F7E4B0029C9B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		201C95ED2C8F7E4A0029C9B8 = {
+			isa = PBXGroup;
+			children = (
+				201C95F82C8F7E4A0029C9B8 /* PomodoroMute */,
+				201C960A2C8F7E4B0029C9B8 /* PomodoroMuteTests */,
+				201C96142C8F7E4B0029C9B8 /* PomodoroMuteUITests */,
+				201C95F72C8F7E4A0029C9B8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		201C95F72C8F7E4A0029C9B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				201C95F62C8F7E4A0029C9B8 /* PomodoroMute.app */,
+				201C96072C8F7E4B0029C9B8 /* PomodoroMuteTests.xctest */,
+				201C96112C8F7E4B0029C9B8 /* PomodoroMuteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		201C95F82C8F7E4A0029C9B8 /* PomodoroMute */ = {
+			isa = PBXGroup;
+			children = (
+				201C95F92C8F7E4A0029C9B8 /* PomodoroMuteApp.swift */,
+				201C95FB2C8F7E4A0029C9B8 /* ContentView.swift */,
+				201C95FD2C8F7E4B0029C9B8 /* Assets.xcassets */,
+				201C95FF2C8F7E4B0029C9B8 /* PomodoroMute.entitlements */,
+				201C96002C8F7E4B0029C9B8 /* Preview Content */,
+			);
+			path = PomodoroMute;
+			sourceTree = "<group>";
+		};
+		201C96002C8F7E4B0029C9B8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				201C96012C8F7E4B0029C9B8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		201C960A2C8F7E4B0029C9B8 /* PomodoroMuteTests */ = {
+			isa = PBXGroup;
+			children = (
+				201C960B2C8F7E4B0029C9B8 /* PomodoroMuteTests.swift */,
+			);
+			path = PomodoroMuteTests;
+			sourceTree = "<group>";
+		};
+		201C96142C8F7E4B0029C9B8 /* PomodoroMuteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				201C96152C8F7E4B0029C9B8 /* PomodoroMuteUITests.swift */,
+				201C96172C8F7E4B0029C9B8 /* PomodoroMuteUITestsLaunchTests.swift */,
+			);
+			path = PomodoroMuteUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		201C95F52C8F7E4A0029C9B8 /* PomodoroMute */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 201C961B2C8F7E4B0029C9B8 /* Build configuration list for PBXNativeTarget "PomodoroMute" */;
+			buildPhases = (
+				201C95F22C8F7E4A0029C9B8 /* Sources */,
+				201C95F32C8F7E4A0029C9B8 /* Frameworks */,
+				201C95F42C8F7E4A0029C9B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PomodoroMute;
+			productName = PomodoroMute;
+			productReference = 201C95F62C8F7E4A0029C9B8 /* PomodoroMute.app */;
+			productType = "com.apple.product-type.application";
+		};
+		201C96062C8F7E4B0029C9B8 /* PomodoroMuteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 201C961E2C8F7E4B0029C9B8 /* Build configuration list for PBXNativeTarget "PomodoroMuteTests" */;
+			buildPhases = (
+				201C96032C8F7E4B0029C9B8 /* Sources */,
+				201C96042C8F7E4B0029C9B8 /* Frameworks */,
+				201C96052C8F7E4B0029C9B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				201C96092C8F7E4B0029C9B8 /* PBXTargetDependency */,
+			);
+			name = PomodoroMuteTests;
+			productName = PomodoroMuteTests;
+			productReference = 201C96072C8F7E4B0029C9B8 /* PomodoroMuteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		201C96102C8F7E4B0029C9B8 /* PomodoroMuteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 201C96212C8F7E4B0029C9B8 /* Build configuration list for PBXNativeTarget "PomodoroMuteUITests" */;
+			buildPhases = (
+				201C960D2C8F7E4B0029C9B8 /* Sources */,
+				201C960E2C8F7E4B0029C9B8 /* Frameworks */,
+				201C960F2C8F7E4B0029C9B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				201C96132C8F7E4B0029C9B8 /* PBXTargetDependency */,
+			);
+			name = PomodoroMuteUITests;
+			productName = PomodoroMuteUITests;
+			productReference = 201C96112C8F7E4B0029C9B8 /* PomodoroMuteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		201C95EE2C8F7E4A0029C9B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					201C95F52C8F7E4A0029C9B8 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					201C96062C8F7E4B0029C9B8 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 201C95F52C8F7E4A0029C9B8;
+					};
+					201C96102C8F7E4B0029C9B8 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 201C95F52C8F7E4A0029C9B8;
+					};
+				};
+			};
+			buildConfigurationList = 201C95F12C8F7E4A0029C9B8 /* Build configuration list for PBXProject "PomodoroMute" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 201C95ED2C8F7E4A0029C9B8;
+			productRefGroup = 201C95F72C8F7E4A0029C9B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				201C95F52C8F7E4A0029C9B8 /* PomodoroMute */,
+				201C96062C8F7E4B0029C9B8 /* PomodoroMuteTests */,
+				201C96102C8F7E4B0029C9B8 /* PomodoroMuteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		201C95F42C8F7E4A0029C9B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				201C96022C8F7E4B0029C9B8 /* Preview Assets.xcassets in Resources */,
+				201C95FE2C8F7E4B0029C9B8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		201C96052C8F7E4B0029C9B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		201C960F2C8F7E4B0029C9B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		201C95F22C8F7E4A0029C9B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				201C95FC2C8F7E4A0029C9B8 /* ContentView.swift in Sources */,
+				201C95FA2C8F7E4A0029C9B8 /* PomodoroMuteApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		201C96032C8F7E4B0029C9B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				201C960C2C8F7E4B0029C9B8 /* PomodoroMuteTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		201C960D2C8F7E4B0029C9B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				201C96182C8F7E4B0029C9B8 /* PomodoroMuteUITestsLaunchTests.swift in Sources */,
+				201C96162C8F7E4B0029C9B8 /* PomodoroMuteUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		201C96092C8F7E4B0029C9B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 201C95F52C8F7E4A0029C9B8 /* PomodoroMute */;
+			targetProxy = 201C96082C8F7E4B0029C9B8 /* PBXContainerItemProxy */;
+		};
+		201C96132C8F7E4B0029C9B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 201C95F52C8F7E4A0029C9B8 /* PomodoroMute */;
+			targetProxy = 201C96122C8F7E4B0029C9B8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		201C96192C8F7E4B0029C9B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		201C961A2C8F7E4B0029C9B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		201C961C2C8F7E4B0029C9B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PomodoroMute/PomodoroMute.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PomodoroMute/Preview Content\"";
+				DEVELOPMENT_TEAM = 25K952Y683;
+				ENABLE_HARDENED_RUNTIME = NO;
+				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Pomodoro Mute";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = "";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rmorabia.PomodoroMute;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		201C961D2C8F7E4B0029C9B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PomodoroMute/PomodoroMute.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PomodoroMute/Preview Content\"";
+				DEVELOPMENT_TEAM = 25K952Y683;
+				ENABLE_HARDENED_RUNTIME = NO;
+				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Pomodoro Mute";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = "";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rmorabia.PomodoroMute;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		201C961F2C8F7E4B0029C9B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rmorabia.PomodoroMuteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PomodoroMute.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PomodoroMute";
+			};
+			name = Debug;
+		};
+		201C96202C8F7E4B0029C9B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rmorabia.PomodoroMuteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PomodoroMute.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PomodoroMute";
+			};
+			name = Release;
+		};
+		201C96222C8F7E4B0029C9B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rmorabia.PomodoroMuteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PomodoroMute;
+			};
+			name = Debug;
+		};
+		201C96232C8F7E4B0029C9B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rmorabia.PomodoroMuteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PomodoroMute;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		201C95F12C8F7E4A0029C9B8 /* Build configuration list for PBXProject "PomodoroMute" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				201C96192C8F7E4B0029C9B8 /* Debug */,
+				201C961A2C8F7E4B0029C9B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		201C961B2C8F7E4B0029C9B8 /* Build configuration list for PBXNativeTarget "PomodoroMute" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				201C961C2C8F7E4B0029C9B8 /* Debug */,
+				201C961D2C8F7E4B0029C9B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		201C961E2C8F7E4B0029C9B8 /* Build configuration list for PBXNativeTarget "PomodoroMuteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				201C961F2C8F7E4B0029C9B8 /* Debug */,
+				201C96202C8F7E4B0029C9B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		201C96212C8F7E4B0029C9B8 /* Build configuration list for PBXNativeTarget "PomodoroMuteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				201C96222C8F7E4B0029C9B8 /* Debug */,
+				201C96232C8F7E4B0029C9B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 201C95EE2C8F7E4A0029C9B8 /* Project object */;
+}
